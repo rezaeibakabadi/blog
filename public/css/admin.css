@@ -1,0 +1,27 @@
+#main {
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 100vh;
+
+}
+
+#main > #nav {
+    flex: 0 0 250px;
+    background-color: skyblue;
+}
+
+#main > #body {
+    flex: 1 1 auto;
+    background-color: rgba(227, 227, 227, 0.65);
+    padding: 25px;
+
+}
+
+#main #header {
+    height: 50px;
+    background-color: orange;
+}
+
+#main > #body > #content {
+    padding: 25px;
+}
