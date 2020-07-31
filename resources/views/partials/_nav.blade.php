@@ -17,14 +17,14 @@
                     <a style="color: #8f8f8f;" href="index">Home</a>
                 </li>
                 <li class="{{ Request::is('blog') ? "active" : "" }}" style="padding: 15px 15px;">
-                    <a style="color: #8f8f8f;" href="blog">Blog</a>
+                    <a style="color: #8f8f8f;" href="/blog">Blog</a>
                 </li>
                 <li class="{{ Request::is('about') ? "active" : "" }}" style="padding: 15px 15px;">
-                    <a style="color: #8f8f8f; " href="about">About me</a>
+                    <a style="color: #8f8f8f; " href="/about">About me</a>
                 </li>
                 <li class="{{ Request::is('contact') ? "active" : "" }}"
                     style="text-align: center; padding: 15px 15px;">
-                    <a style="color: #8f8f8f;" href="contact">Contacts</a>
+                    <a style="color: #8f8f8f;" href="/contact">Contacts</a>
                 </li>
                 <li class="nav-item">
                 </li>
